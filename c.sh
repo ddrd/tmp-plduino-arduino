@@ -19,7 +19,7 @@ cd dist
 cp esptool-plduino-0.4.6-linux64.tar.gz esptool-plduino-0.4.6-linux32.tar.gz
 cp esptool-plduino-0.4.6-linux64.tar.gz esptool-plduino-0.4.6-win32.zip
 
-ESPTOOL_URL="http:\/\/192.168.1.63:9998"
+ESPTOOL_URL="https:\/\/raw.githubusercontent.com\/ddrd\/tmp-plduino-arduino\/master\/dist"
 ESPTOOL_CHECKSUM_WIN32=`checksum esptool-plduino-0.4.6-win32.zip`
 ESPTOOL_SIZE_WIN32=`stat -n -f%z esptool-plduino-0.4.6-win32.zip`
 ESPTOOL_CHECKSUM_LINUX32=`checksum esptool-plduino-0.4.6-linux32.tar.gz`
@@ -29,11 +29,11 @@ ESPTOOL_SIZE_LINUX64=`stat -n -f%z esptool-plduino-0.4.6-linux64.tar.gz`
 ESPTOOL_CHECKSUM_OSX=`checksum esptool-plduino-0.4.6-osx.tar.gz`
 ESPTOOL_SIZE_OSX=`stat -n -f%z esptool-plduino-0.4.6-osx.tar.gz`
 
-BOARDAVR_URL=$ESPTOOL_URL
+BOARDAVR_URL="https:\/\/raw.githubusercontent.com\/ddrd\/tmp-plduino-arduino\/master\/dist"
 BOARDAVR_CHECKSUM=`checksum PLDuinoAVR-1.0.0.tar.gz`
 BOARDAVR_SIZE=`stat -n -f%z PLDuinoAVR-1.0.0.tar.gz`
 
-BOARDESP_URL=$ESPTOOL_URL
+BOARDESP_URL="https:\/\/raw.githubusercontent.com\/ddrd\/tmp-plduino-arduino\/master\/dist"
 BOARDESP_CHECKSUM=`checksum PLDuinoESP-1.0.0.tar.gz`
 BOARDESP_SIZE=`stat -n -f%z PLDuinoESP-1.0.0.tar.gz`
 

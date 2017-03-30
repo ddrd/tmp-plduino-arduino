@@ -1,0 +1,83 @@
+{
+  "packages": [
+    {
+      "maintainer": "Digital Loggers Inc", 
+      "help": { "online": "http://github.com/digitalloggers/plduino" }, 
+      "websiteURL": "https://github.com/digitalloggers/plduino", 
+      "email": "plduino@digital-loggers.com", 
+      "name": "PLDuino",
+      
+      "platforms": [
+        {
+          "name": "PLDuino/ESP-02",
+          "category": "Contributed",
+          "url": "http://192.168.1.63:9998/PLDuinoESP-1.0.0.tar.gz",
+          "archiveFileName": "PLDuinoESP-1.0.0.tar.gz",
+          "checksum": "SHA-256:49c0a591680a39d27a3b5dc3820d0b811e704377a98510d34341ae22cf29f8c8",
+          "size": "4526408",
+          "version": "1.0.0",
+          "architecture": "esp8266",
+          "boards": [{ "name": "PLDuino/ESP-02" }],
+          "toolsDependencies": [
+            { "packager": "PLDuino", "version": "0.4.6", "name": "esptool-plduino" },
+            { "packager": "esp8266", "version": "1.20.0-26-gb404fb9-2", "name": "xtensa-lx106-elf-gcc" },
+            { "packager": "arduino", "name": "avrdude", "version": "6.3.0-arduino8" }
+          ]
+        },
+        {
+          "name": "PLDuino/Mega2560",
+          "category": "Contributed",
+          "url": "http://192.168.1.63:9998/PLDuinoAVR-1.0.0.tar.gz",
+          "archiveFileName": "PLDuinoAVR-1.0.0.tar.gz",
+          "checksum": "SHA-256:f5758fec5c05c4af6ee05d6ef9939fb18ade5383373ac727112fa2c42c495f74",
+          "size": "111643",
+          "version": "1.0.0",
+          "architecture": "avr",
+          "boards": [{ "name": "PLDuino/Mega2560" }],
+          "toolsDependencies": [
+            { "packager": "arduino", "name": "avr-gcc", "version": "4.9.2-atmel3.5.3-arduino2" },
+            { "packager": "arduino", "name": "avrdude", "version": "6.3.0-arduino8" }
+          ]
+        }        
+      ],
+
+      "tools": [
+        {
+          "version": "0.4.6", 
+          "name": "esptool-plduino", 
+          "systems": [
+            {
+              "url": "http://192.168.1.63:9998/esptool-plduino-0.4.6-win32.tar.gz",
+              "checksum": "SHA-256:50bdca1d546656aee8cc1869215fb099083b050a9ac6dd1ffef6bbdbc94dcdbc",
+              "size": "21707",
+              "host": "i686-mingw32",
+              "archiveFileName": "esptool-0.4.6-win32.tar.gz"
+            },
+            {
+              "url": "http://192.168.1.63:9998/esptool-plduino-0.4.6-osx.tar.gz",
+              "checksum": "SHA-256:66f9c7003a0d718a5184d99feda44220353bbb5c787f550cded791ad2386785c",
+              "size": "36165",
+              "host": "x86_64-apple-darwin",
+              "archiveFileName": "esptool-0.4.6-osx.tar.gz"
+            }, 
+            {
+              "url": "http://192.168.1.63:9998/esptool-plduino-0.4.6-linux64.tar.gz",
+              "checksum": "SHA-256:50bdca1d546656aee8cc1869215fb099083b050a9ac6dd1ffef6bbdbc94dcdbc",
+              "size": "21707",
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "esptool-0.4.6-linux64.tar.gz"
+            }, 
+            {
+              "url": "http://192.168.1.63:9998/esptool-plduino-0.4.6-linux32.tar.gz",
+              "checksum": "SHA-256:50bdca1d546656aee8cc1869215fb099083b050a9ac6dd1ffef6bbdbc94dcdbc",
+              "size": "21707",
+              "host": "i686-pc-linux-gnu",
+              "archiveFileName": "esptool-0.4.6-linux32.tar.gz"
+            }
+          ]
+        }
+      ]
+
+    }
+  ]
+}

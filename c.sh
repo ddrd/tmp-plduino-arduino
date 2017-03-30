@@ -11,8 +11,10 @@ tar -zcvf dist/esptool-plduino-0.4.6-osx.tar.gz esptool-plduino-osx
 tar -zcvf dist/esptool-plduino-0.4.6-linux64.tar.gz esptool-plduino-linux64
 tar -zcvf dist/esptool-plduino-0.4.6-win32.tar.gz esptool-plduino-win32
 tar -zcvf dist/esptool-plduino-0.4.6-linux32.tar.gz esptool-plduino-linux32
-tar -zcvf dist/PLDuinoAVR-1.0.0.tar.gz plduino-arduinoide-package/PLDuinoAVR
-tar -zcvf dist/PLDuinoESP-1.0.0.tar.gz plduino-arduinoide-package/PLDuinoESP
+cd plduino-arduinoide-package
+tar -zcvf ../dist/PLDuinoAVR-1.0.0.tar.gz PLDuinoAVR
+tar -zcvf ../dist/PLDuinoESP-1.0.0.tar.gz PLDuinoESP
+cd ..
 
 cd dist
 

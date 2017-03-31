@@ -19,11 +19,10 @@ cd ..
 cd dist
 
 cp esptool-plduino-0.4.6-linux64.tar.gz esptool-plduino-0.4.6-linux32.tar.gz
-cp esptool-plduino-0.4.6-linux64.tar.gz esptool-plduino-0.4.6-win32.zip
 
 ESPTOOL_URL="https:\/\/raw.githubusercontent.com\/ddrd\/tmp-plduino-arduino\/master\/dist"
-ESPTOOL_CHECKSUM_WIN32=`checksum esptool-plduino-0.4.6-win32.zip`
-ESPTOOL_SIZE_WIN32=`stat -n -f%z esptool-plduino-0.4.6-win32.zip`
+ESPTOOL_CHECKSUM_WIN32=`checksum esptool-plduino-0.4.6-win32.tar.gz`
+ESPTOOL_SIZE_WIN32=`stat -n -f%z esptool-plduino-0.4.6-win32.tar.gz`
 ESPTOOL_CHECKSUM_LINUX32=`checksum esptool-plduino-0.4.6-linux32.tar.gz`
 ESPTOOL_SIZE_LINUX32=`stat -n -f%z esptool-plduino-0.4.6-linux32.tar.gz`
 ESPTOOL_CHECKSUM_LINUX64=`checksum esptool-plduino-0.4.6-linux64.tar.gz`

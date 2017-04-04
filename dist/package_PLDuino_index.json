@@ -13,7 +13,7 @@
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/PLDuinoESP-1.0.0.tar.gz",
           "archiveFileName": "PLDuinoESP-1.0.0.tar.gz",
-          "checksum": "SHA-256:9072c10dbe13415eaada6e73988e7ab006f2a45fcec98fe64aead4ff3c2facb7",
+          "checksum": "SHA-256:75a8abd51b7e60f14327adf325219d9d3c0564fc65d6a3d3306d762e5728054f",
           "size": "4525482",
           "version": "1.0.0",
           "architecture": "esp8266",
@@ -29,7 +29,7 @@
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/PLDuinoAVR-1.0.0.tar.gz",
           "archiveFileName": "PLDuinoAVR-1.0.0.tar.gz",
-          "checksum": "SHA-256:aea8157ba67ede64fe8f13e3c87a16cf6d4f56d68e38616b90cb158343c0d3fb",
+          "checksum": "SHA-256:f1e8e74a74af675e8fa7e466ca575a0d18a9af3283689fc72cc5925e18b1462a",
           "size": "111570",
           "version": "1.0.0",
           "architecture": "avr",
@@ -48,29 +48,29 @@
           "systems": [
             {
               "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/esptool-plduino-0.4.6-win32.tar.gz",
-              "checksum": "SHA-256:e65348029a5ebf6ebfb8703c28a9881082769d7039bc38d61127cdf1b6761beb",
+              "checksum": "SHA-256:6e6d50eed5bd6a9577fc492b39964d42da778ea5b51688cd8a8b0982b8bc9152",
               "size": "19744",
               "host": "i686-mingw32",
               "archiveFileName": "esptool-0.4.6-win32.tar.gz"
             },
             {
               "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/esptool-plduino-0.4.6-osx.tar.gz",
-              "checksum": "SHA-256:afa0d704c7fca2e9dcc3b9b41ccf35739ac34c9554d7f1e9d0078a6d35471fd6",
+              "checksum": "SHA-256:a147ce7d1053c58436d07b1e1eb001030d03f21ebe205a7a4abbb007b787a55e",
               "size": "36165",
               "host": "x86_64-apple-darwin",
               "archiveFileName": "esptool-0.4.6-osx.tar.gz"
             }, 
             {
               "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/esptool-plduino-0.4.6-linux64.tar.gz",
-              "checksum": "SHA-256:b84218ef74b55b1200534bec1eb3dbd8bd5ad853035ef266796984365269f3a7",
+              "checksum": "SHA-256:7da5996b70b028d3eef03f28a24ee6152744daefa62f85323522ef27c5ccb73b",
               "size": "21707",
               "host": "x86_64-pc-linux-gnu",
               "archiveFileName": "esptool-0.4.6-linux64.tar.gz"
             }, 
             {
               "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/esptool-plduino-0.4.6-linux32.tar.gz",
-              "checksum": "SHA-256:b84218ef74b55b1200534bec1eb3dbd8bd5ad853035ef266796984365269f3a7",
-              "size": "21707",
+              "checksum": "SHA-256:2175d1978984116c03aaa0d922336fe402296243c84dfea839fec51d6b500afc",
+              "size": "45",
               "host": "i686-pc-linux-gnu",
               "archiveFileName": "esptool-0.4.6-linux32.tar.gz"
             }

@@ -39,7 +39,7 @@ BOARDESP_SIZE=`stat -n -f%z PLDuinoESP-1.0.0.tar.gz`
 cp ../package_PLDuino_index.json.template package_PLDuino_index.json
 
 function replace() {
-	sed -i bak "s/$1/${!1}/g" package_PLDuino_index.json
+	sed -i "s/$1/${!1}/g" package_PLDuino_index.json
 }
 
 replace "ESPTOOL_URL"

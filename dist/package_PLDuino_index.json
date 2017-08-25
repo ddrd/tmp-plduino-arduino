@@ -188,9 +188,9 @@
           "systems": [
             {
               "archiveFileName": "esptool-plduino-0.4.6-linux32.tar.gz", 
-              "checksum": "MD5:d16f450603a959101c4aacc84196a43d", 
+              "checksum": "MD5:fcf7729ce1cf3e1b5b6ac18c141efdb0", 
               "host": "i686-pc-linux-gnu", 
-              "size": "45", 
+              "size": "20732", 
               "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/esptool-plduino-0.4.6-linux32.tar.gz"
             }, 
             {

@@ -1,0 +1,3 @@
+[submodule "plduino-arduinoide-package"]
+    path = plduino-arduinoide-package
+    url = https://github.com/digitalloggers/plduino-arduinoide-package

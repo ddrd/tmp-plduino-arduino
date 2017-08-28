@@ -67,9 +67,9 @@
             }
           ], 
           "category": "Contributed", 
-          "checksum": "MD5:0f89e18787748782a55ce6f167dc3e27", 
+          "checksum": "MD5:25ca845aa40ef36dcf919826a9d2392a", 
           "name": "PLDuino/Mega2560", 
-          "size": "92142", 
+          "size": "92117", 
           "toolsDependencies": [
             {
               "name": "avr-gcc", 
@@ -158,9 +158,9 @@
             }
           ], 
           "category": "Contributed", 
-          "checksum": "MD5:f69e5996403bf276bdcb9b286092a27a", 
+          "checksum": "MD5:1deac01ade36ba7e33df75ec10bfeb68", 
           "name": "PLDuino/ESP-02", 
-          "size": "4633407", 
+          "size": "4632754", 
           "toolsDependencies": [
             {
               "name": "esptool-plduino", 

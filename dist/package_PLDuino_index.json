@@ -86,6 +86,33 @@
           "version": "1.1.1"
         }, 
         {
+          "architecture": "avr", 
+          "archiveFileName": "PLDuinoAVR-1.1.2.tar.gz", 
+          "boards": [
+            {
+              "name": "PLDuino/Mega2560"
+            }
+          ], 
+          "category": "Contributed", 
+          "checksum": "MD5:1e80db74a4418f76e759c7bde80bf5ac", 
+          "name": "PLDuino/Mega2560", 
+          "size": "87971", 
+          "toolsDependencies": [
+            {
+              "name": "avr-gcc", 
+              "packager": "arduino", 
+              "version": "4.9.2-atmel3.5.3-arduino2"
+            }, 
+            {
+              "name": "avrdude", 
+              "packager": "arduino", 
+              "version": "6.3.0-arduino8"
+            }
+          ], 
+          "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/PLDuinoAVR-1.1.2.tar.gz", 
+          "version": "1.1.2"
+        }, 
+        {
           "architecture": "esp8266", 
           "archiveFileName": "PLDuinoESP-1.0.0.tar.gz", 
           "boards": [
@@ -180,6 +207,38 @@
           ], 
           "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/PLDuinoESP-1.1.1.tar.gz", 
           "version": "1.1.1"
+        }, 
+        {
+          "architecture": "esp8266", 
+          "archiveFileName": "PLDuinoESP-1.1.2.tar.gz", 
+          "boards": [
+            {
+              "name": "PLDuino/ESP-02"
+            }
+          ], 
+          "category": "Contributed", 
+          "checksum": "MD5:4701e2bdf447c6d2856bc23d41f322b6", 
+          "name": "PLDuino/ESP-02", 
+          "size": "4628367", 
+          "toolsDependencies": [
+            {
+              "name": "esptool-plduino", 
+              "packager": "PLDuino", 
+              "version": "0.4.6"
+            }, 
+            {
+              "name": "xtensa-lx106-elf-gcc", 
+              "packager": "esp8266", 
+              "version": "1.20.0-26-gb404fb9-2"
+            }, 
+            {
+              "name": "avrdude", 
+              "packager": "arduino", 
+              "version": "6.3.0-arduino8"
+            }
+          ], 
+          "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/PLDuinoESP-1.1.2.tar.gz", 
+          "version": "1.1.2"
         }
       ], 
       "tools": [

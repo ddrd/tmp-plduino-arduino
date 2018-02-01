@@ -5,22 +5,27 @@
       "name": "PLDuino", 
       "platforms": [
         {
-          "architecture": "avr", 
-          "archiveFileName": "PLDuinoAVR-1.0.0.tar.gz", 
+          "architecture": "esp8266", 
+          "archiveFileName": "PLDuinoESP-1.1.2.tar.gz", 
           "boards": [
             {
-              "name": "PLDuino/Mega2560"
+              "name": "PLDuino/ESP-02"
             }
           ], 
           "category": "Contributed", 
-          "checksum": "MD5:b3850f766d57cde50446fd5f7d09d127", 
-          "name": "PLDuino/Mega2560", 
-          "size": "114561", 
+          "checksum": "MD5:71214a29dfc03f7efa6f95b44a7c6e5b", 
+          "name": "PLDuino/ESP-02", 
+          "size": "4626529", 
           "toolsDependencies": [
             {
-              "name": "avr-gcc", 
-              "packager": "arduino", 
-              "version": "4.9.2-atmel3.5.3-arduino2"
+              "name": "esptool-plduino", 
+              "packager": "PLDuino", 
+              "version": "0.4.6"
+            }, 
+            {
+              "name": "xtensa-lx106-elf-gcc", 
+              "packager": "esp8266", 
+              "version": "1.20.0-26-gb404fb9-2"
             }, 
             {
               "name": "avrdude", 
@@ -28,88 +33,7 @@
               "version": "6.3.0-arduino8"
             }
           ], 
-          "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/PLDuinoAVR-1.0.0.tar.gz", 
-          "version": "1.0.0"
-        }, 
-        {
-          "architecture": "avr", 
-          "archiveFileName": "PLDuinoAVR-1.1.0.tar.gz", 
-          "boards": [
-            {
-              "name": "PLDuino/Mega2560"
-            }
-          ], 
-          "category": "Contributed", 
-          "checksum": "MD5:0290471c42799ae276ffd9a8ae9e08a5", 
-          "name": "PLDuino/Mega2560", 
-          "size": "7896640", 
-          "toolsDependencies": [
-            {
-              "name": "avr-gcc", 
-              "packager": "arduino", 
-              "version": "4.9.2-atmel3.5.3-arduino2"
-            }, 
-            {
-              "name": "avrdude", 
-              "packager": "arduino", 
-              "version": "6.3.0-arduino8"
-            }
-          ], 
-          "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/PLDuinoAVR-1.1.0.tar.gz", 
-          "version": "1.1.0"
-        }, 
-        {
-          "architecture": "avr", 
-          "archiveFileName": "PLDuinoAVR-1.1.1.tar.gz", 
-          "boards": [
-            {
-              "name": "PLDuino/Mega2560"
-            }
-          ], 
-          "category": "Contributed", 
-          "checksum": "MD5:25ca845aa40ef36dcf919826a9d2392a", 
-          "name": "PLDuino/Mega2560", 
-          "size": "92117", 
-          "toolsDependencies": [
-            {
-              "name": "avr-gcc", 
-              "packager": "arduino", 
-              "version": "4.9.2-atmel3.5.3-arduino2"
-            }, 
-            {
-              "name": "avrdude", 
-              "packager": "arduino", 
-              "version": "6.3.0-arduino8"
-            }
-          ], 
-          "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/PLDuinoAVR-1.1.1.tar.gz", 
-          "version": "1.1.1"
-        }, 
-        {
-          "architecture": "avr", 
-          "archiveFileName": "PLDuinoAVR-1.1.2.tar.gz", 
-          "boards": [
-            {
-              "name": "PLDuino/Mega2560"
-            }
-          ], 
-          "category": "Contributed", 
-          "checksum": "MD5:1e80db74a4418f76e759c7bde80bf5ac", 
-          "name": "PLDuino/Mega2560", 
-          "size": "87971", 
-          "toolsDependencies": [
-            {
-              "name": "avr-gcc", 
-              "packager": "arduino", 
-              "version": "4.9.2-atmel3.5.3-arduino2"
-            }, 
-            {
-              "name": "avrdude", 
-              "packager": "arduino", 
-              "version": "6.3.0-arduino8"
-            }
-          ], 
-          "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/PLDuinoAVR-1.1.2.tar.gz", 
+          "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/PLDuinoESP-1.1.2.tar.gz", 
           "version": "1.1.2"
         }, 
         {
@@ -177,6 +101,119 @@
           "version": "1.1.0"
         }, 
         {
+          "architecture": "avr", 
+          "archiveFileName": "PLDuinoAVR-1.1.2.tar.gz", 
+          "boards": [
+            {
+              "name": "PLDuino/Mega2560"
+            }
+          ], 
+          "category": "Contributed", 
+          "checksum": "MD5:7e24a68e1d2cc1e7b19ddc8629a5cce5", 
+          "name": "PLDuino/Mega2560", 
+          "size": "90135", 
+          "toolsDependencies": [
+            {
+              "name": "avr-gcc", 
+              "packager": "arduino", 
+              "version": "4.9.2-atmel3.5.3-arduino2"
+            }, 
+            {
+              "name": "avrdude", 
+              "packager": "arduino", 
+              "version": "6.3.0-arduino8"
+            }
+          ], 
+          "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/PLDuinoAVR-1.1.2.tar.gz", 
+          "version": "1.1.2"
+        }, 
+        {
+          "architecture": "avr", 
+          "archiveFileName": "PLDuinoAVR-1.0.0.tar.gz", 
+          "boards": [
+            {
+              "name": "PLDuino/Mega2560"
+            }
+          ], 
+          "category": "Contributed", 
+          "checksum": "MD5:b3850f766d57cde50446fd5f7d09d127", 
+          "name": "PLDuino/Mega2560", 
+          "size": "114561", 
+          "toolsDependencies": [
+            {
+              "name": "avr-gcc", 
+              "packager": "arduino", 
+              "version": "4.9.2-atmel3.5.3-arduino2"
+            }, 
+            {
+              "name": "avrdude", 
+              "packager": "arduino", 
+              "version": "6.3.0-arduino8"
+            }
+          ], 
+          "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/PLDuinoAVR-1.0.0.tar.gz", 
+          "version": "1.0.0"
+        }, 
+        {
+          "architecture": "avr", 
+          "archiveFileName": "PLDuinoAVR-1.1.0.tar.gz", 
+          "boards": [
+            {
+              "name": "PLDuino/Mega2560"
+            }
+          ], 
+          "category": "Contributed", 
+          "checksum": "MD5:0290471c42799ae276ffd9a8ae9e08a5", 
+          "name": "PLDuino/Mega2560", 
+          "size": "7896640", 
+          "toolsDependencies": [
+            {
+              "name": "avr-gcc", 
+              "packager": "arduino", 
+              "version": "4.9.2-atmel3.5.3-arduino2"
+            }, 
+            {
+              "name": "avrdude", 
+              "packager": "arduino", 
+              "version": "6.3.0-arduino8"
+            }
+          ], 
+          "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/PLDuinoAVR-1.1.0.tar.gz", 
+          "version": "1.1.0"
+        }, 
+        {
+          "architecture": "esp8266", 
+          "archiveFileName": "PLDuinoESP-1.2.0.tar.gz", 
+          "boards": [
+            {
+              "name": "PLDuino/ESP-02"
+            }
+          ], 
+          "category": "Contributed", 
+          "checksum": "MD5:e3ca52c1b6f8a9dcc26a0ed836a611ec", 
+          "name": "PLDuino/ESP-02", 
+          "size": "9994511", 
+          "toolsDependencies": [
+            {
+              "name": "esptool-plduino", 
+              "packager": "PLDuino", 
+              "version": "0.4.6"
+            }, 
+            {
+              "name": "xtensa-lx106-elf-gcc", 
+              "packager": "esp8266", 
+              "version": "1.20.0-26-gb404fb9-2"
+            }, 
+            {
+              "name": "avrdude", 
+              "packager": "arduino", 
+              "version": "6.3.0-arduino8"
+            }
+          ], 
+          "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/PLDuinoESP-1.2.0.tar.gz", 
+          "version": "1.2.0"
+        }, 
+        {
           "architecture": "esp8266", 
           "archiveFileName": "PLDuinoESP-1.1.1.tar.gz", 
           "boards": [
@@ -209,27 +246,22 @@
           "version": "1.1.1"
         }, 
         {
-          "architecture": "esp8266", 
-          "archiveFileName": "PLDuinoESP-1.1.2.tar.gz", 
+          "architecture": "avr", 
+          "archiveFileName": "PLDuinoAVR-1.2.0.tar.gz", 
           "boards": [
             {
-              "name": "PLDuino/ESP-02"
+              "name": "PLDuino/Mega2560"
             }
           ], 
           "category": "Contributed", 
-          "checksum": "MD5:4701e2bdf447c6d2856bc23d41f322b6", 
-          "name": "PLDuino/ESP-02", 
-          "size": "4628367", 
+          "checksum": "MD5:aa248f46ec710d181eb65e257b253d64", 
+          "name": "PLDuino/Mega2560", 
+          "size": "90135", 
           "toolsDependencies": [
             {
-              "name": "esptool-plduino", 
-              "packager": "PLDuino", 
-              "version": "0.4.6"
-            }, 
-            {
-              "name": "xtensa-lx106-elf-gcc", 
-              "packager": "esp8266", 
-              "version": "1.20.0-26-gb404fb9-2"
+              "name": "avr-gcc", 
+              "packager": "arduino", 
+              "version": "4.9.2-atmel3.5.3-arduino2"
             }, 
             {
               "name": "avrdude", 
@@ -237,8 +269,35 @@
               "version": "6.3.0-arduino8"
             }
           ], 
-          "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/PLDuinoESP-1.1.2.tar.gz", 
-          "version": "1.1.2"
+          "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/PLDuinoAVR-1.2.0.tar.gz", 
+          "version": "1.2.0"
+        }, 
+        {
+          "architecture": "avr", 
+          "archiveFileName": "PLDuinoAVR-1.1.1.tar.gz", 
+          "boards": [
+            {
+              "name": "PLDuino/Mega2560"
+            }
+          ], 
+          "category": "Contributed", 
+          "checksum": "MD5:25ca845aa40ef36dcf919826a9d2392a", 
+          "name": "PLDuino/Mega2560", 
+          "size": "92117", 
+          "toolsDependencies": [
+            {
+              "name": "avr-gcc", 
+              "packager": "arduino", 
+              "version": "4.9.2-atmel3.5.3-arduino2"
+            }, 
+            {
+              "name": "avrdude", 
+              "packager": "arduino", 
+              "version": "6.3.0-arduino8"
+            }
+          ], 
+          "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/PLDuinoAVR-1.1.1.tar.gz", 
+          "version": "1.1.1"
         }
       ], 
       "tools": [
@@ -253,18 +312,18 @@
               "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/esptool-plduino-0.4.6-linux32.tar.gz"
             }, 
             {
-              "archiveFileName": "esptool-plduino-0.4.6-linux64.tar.gz", 
-              "checksum": "MD5:ad20ad3a65a7190bd0e8b842e9d6b24e", 
-              "host": "x86_64-pc-linux-gnu", 
-              "size": "21707", 
-              "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/esptool-plduino-0.4.6-linux64.tar.gz"
-            }, 
-            {
               "archiveFileName": "esptool-plduino-0.4.6-osx.tar.gz", 
               "checksum": "MD5:5cdb1ce6e9b063e191bd6a0df73ac6e6", 
               "host": "x86_64-apple-darwin", 
               "size": "36540", 
               "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/esptool-plduino-0.4.6-osx.tar.gz"
+            }, 
+            {
+              "archiveFileName": "esptool-plduino-0.4.6-linux64.tar.gz", 
+              "checksum": "MD5:ad20ad3a65a7190bd0e8b842e9d6b24e", 
+              "host": "x86_64-pc-linux-gnu", 
+              "size": "21707", 
+              "url": "https://raw.githubusercontent.com/ddrd/tmp-plduino-arduino/master/dist/esptool-plduino-0.4.6-linux64.tar.gz"
             }, 
             {
               "archiveFileName": "esptool-plduino-0.4.6-win32.tar.gz", 
